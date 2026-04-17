@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 255, 133, 0.1);
+}
+
+.neon-text {
+  text-shadow: 0 0 20px #00ff85,
+               0 0 40px #00ff85;
+}
