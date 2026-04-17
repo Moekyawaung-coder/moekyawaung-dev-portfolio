@@ -1,0 +1,32 @@
+moekyawaung-dev-portfolio/
+├── app/
+│   ├── (home)/
+│   │   ├── page.tsx
+│   │   └── layout.tsx
+│   ├── blog/
+│   │   ├── page.tsx
+│   │   └── [slug]/
+│   ├── projects/
+│   ├── journey/
+│   └── layout.tsx
+├── components/
+│   ├── ui/              # shadcn components
+│   ├── Hero.tsx
+│   ├── HolographicOrb.tsx
+│   ├── RepositoryGrid.tsx
+│   ├── JourneyTimeline.tsx
+│   ├── FinalOracle.tsx
+│   └── Navbar.tsx
+├── content/
+│   ├── blog/
+│   └── projects.json
+├── public/
+│   ├── banners/
+│   └── profile.jpg
+├── lib/
+│   └── utils.ts
+├── styles/
+├── next.config.js
+├── tailwind.config.ts
+├── tsconfig.json
+└── README.md
